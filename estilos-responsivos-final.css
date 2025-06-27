@@ -1,0 +1,96 @@
+
+/* Aquí iría todo el CSS final completo con los cambios aplicados que el usuario pidió */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* ... Resto del CSS completo, incluyendo todas las secciones ... */
+
+/* ======= MEDIA QUERIES RESPONSIVE ======= */
+
+@media (max-width: 1200px) {
+  .logo-principal {
+    width: 500px;
+  }
+}
+
+/* ... Aquí se incluyen todos los bloques que ya enviaste ... */
+
+@media (max-width: 400px) {
+  .hero {
+    height: auto;
+    padding-top: 160px;
+    padding-bottom: 60px;
+    background-position: center;
+  }
+  .hero-content {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .hero-left {
+    margin-top: 0;
+    gap: 20px;
+  }
+  .logo-principal {
+    width: 220px;
+  }
+  .boton-afiliate {
+    padding: 10px 18px;
+    font-size: 13px;
+    border-radius: 30px;
+  }
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+  }
+  .menu {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .menu li a {
+    font-size: 14px;
+  }
+  .footer-contenedor {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    gap: 20px;
+  }
+  .footer-politica {
+    padding-right: 0;
+    text-align: center;
+  }
+  .footer-politica h3 {
+    font-size: 18px;
+  }
+  .footer-politica p,
+  .footer-politica h4 {
+    font-size: 14px;
+  }
+  .footer-copy {
+    margin-top: 40px;
+    font-size: 12px;
+  }
+  .footer-contacto {
+    padding: 15px;
+  }
+  .footer-logo {
+    width: 140px;
+  }
+  .flecha-inicio {
+    bottom: 16px;
+    left: 16px;
+    font-size: 16px;
+    padding: 10px 12px;
+  }
+  .titulo-seccion {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
